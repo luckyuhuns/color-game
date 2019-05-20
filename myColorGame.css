@@ -1,0 +1,68 @@
+body{
+	background-color: #232323;
+	font-family: anke;
+	margin: 0;
+}
+
+h1{
+	background-color: steelblue;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 40px;
+	color: white;
+}
+
+#rgb{
+	font-weight: bold;
+	font-size: 1.7em;
+}
+
+#container{
+	max-width: 600px;
+	margin: 30px auto;
+	margin-top: 20px;
+}
+
+.boxes{
+	width: 30%;
+	height: 180px;
+	
+	float: left;
+	margin: 10px 10px;
+	border-radius: 20%;
+	transition: all, 0.5s;
+	-webkit-transition: all, 0.5s;
+	-moz-transition: all, 0.5s; 
+}
+
+#underHeadStripe{
+	background-color: white;
+	text-align: center;
+
+}
+
+#displayMessage{
+	width: 300px;
+	display: inline-block;
+
+
+}
+
+button{
+	/*height: 100%;*/
+	background-color: white;
+	font-family: coolvetica;
+	font-size: inherit;
+	border: none;
+	
+	font-weight: bold;
+	text-transform: uppercase;
+	color: steelblue;
+	outline: none;
+
+}
